@@ -1,0 +1,166 @@
+.flex-box1 {
+    display: flex;
+    border: 2px solid black;
+}
+
+.flex-box2 {
+    display: inline-flex;
+    border: 2px solid black;
+}
+
+.flex-box3 {
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row;
+}
+
+.flex-box4 {
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row-reverse;
+}
+
+.flex-box5 {
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+.flex-box6 {
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column-reverse;
+}
+
+.flex-box7 {
+    display: flex;
+    border: 2px solid black;
+    flex-wrap: nowrap;
+}
+
+.flex-box8 {
+    display: flex;
+    border: 2px solid black;
+    flex-wrap: wrap;
+}
+
+.flex-box9 {
+    display: flex;
+    border: 2px solid black;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-element {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+.flex-box10 {
+    height: 100px;
+}
+
+.flex-box11 {
+    display: flex;
+    border: 2px solid black;
+    justify-content: flex-start;
+}
+
+.flex-box12 {
+    display: flex;
+    border: 2px solid black;
+    justify-content: flex-end;
+}
+
+.flex-box13 {
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+}
+
+.flex-box14 {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+}
+
+.flex-box15 {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+}
+
+.flex-element2 {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.flex-element-big {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.order-5 {
+    order: 5;
+}
+
+.order-4 {
+    order: 4;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.flex-container {
+    height: 400px;
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+}
+
+.flex-element-not-fixed {
+    flex: 1;
+    border: 1px solid black;   
+}
+
+.flex-box16 {
+    align-items: stretch;
+}
+
+.flex-box17 {
+    align-items: flex-start;
+}
+
+.flex-box18 {
+    align-items: flex-end;
+}
+
+.flex-box19 {
+    align-items: center;
+}
+
+.flex-element-self-start {
+    align-self: flex-start;
+}
+
+.flex-element-self-end {
+    align-self: flex-end;
+}
+
+.flex-element-basis {
+    flex: 1 0 200px;
+    border: 1px solid black;   
+}
+
+.flex-box-wrap {
+    flex-wrap: wrap;
+}
