@@ -1,4 +1,6 @@
 .flex-box1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border: 2px solid black;
 }
@@ -9,42 +11,56 @@
 }
 
 .flex-box3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border: 2px solid black;
     flex-direction: row;
 }
 
 .flex-box4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border: 2px solid black;
     flex-direction: row-reverse;
 }
 
 .flex-box5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border: 2px solid black;
     flex-direction: column;
 }
 
 .flex-box6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border: 2px solid black;
     flex-direction: column-reverse;
 }
 
 .flex-box7 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border: 2px solid black;
     flex-wrap: nowrap;
 }
 
 .flex-box8 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border: 2px solid black;
     flex-wrap: wrap;
 }
 
 .flex-box9 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border: 2px solid black;
     flex-wrap: wrap-reverse;
@@ -63,30 +79,40 @@
 }
 
 .flex-box11 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border: 2px solid black;
     justify-content: flex-start;
 }
 
 .flex-box12 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border: 2px solid black;
     justify-content: flex-end;
 }
 
 .flex-box13 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border: 2px solid black;
     justify-content: center;
 }
 
 .flex-box14 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border: 2px solid black;
     justify-content: space-between;
 }
 
 .flex-box15 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border: 2px solid black;
     justify-content: space-around;
@@ -121,7 +147,9 @@
 }
 
 .flex-container {
-    height: 400px;
+    height: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border: 2px solid black;
     justify-content: center;
@@ -129,7 +157,7 @@
 
 .flex-element-not-fixed {
     flex: 1;
-    border: 1px solid black;   
+    border: 1px solid black;
 }
 
 .flex-box16 {
@@ -157,10 +185,14 @@
 }
 
 .flex-element-basis {
-    flex: 1 0 200px;
-    border: 1px solid black;   
+    flex: 1 1 300px;
+    border: 1px solid black;
 }
 
 .flex-box-wrap {
     flex-wrap: wrap;
+}
+
+.flex-box20 {
+	align-content: center;
 }
